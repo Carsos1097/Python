@@ -1,7 +1,7 @@
 # Calculadora de medias.
-n1=int(input("Dime un número: "))
-n2=int(input("Dime otro número: "))
-n3=int(input("Dime otro número más: "))
-suma=n1+n2+n3
+num1=int(input("Dime el primer número: "))
+num2=int(input("Dime el segundo número: "))
+num3=int(input("Dime el tercer número: "))
+suma=num1+num2+num3
 media=suma/3
 print(media)
