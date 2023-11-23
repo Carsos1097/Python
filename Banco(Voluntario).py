@@ -19,11 +19,12 @@ while True:
     if preg=="INGRESAR":
         ing=int(input("Cuánto dinero deseas ingresar --> "))
         if ing>cartera:
-            print("No puedes ingresar más dinero del que llevas encima")
+            print("No puedes ingresar más dinero del que tienes en tu cartera")
         else:
             dinero=dinero+ing
             cartera=cartera-ing
     if preg=="SALIR":
+        print("Gracias, vuelva pronto")
         break
     if dinero==0:
         print("Te has quedado sin dinero en el banco")
