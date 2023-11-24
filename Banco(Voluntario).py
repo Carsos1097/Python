@@ -27,4 +27,4 @@ while True:
         print("Gracias, vuelva pronto")
         break
     if dinero==0:
-        print("Te has quedado sin dinero en el banco")
+        print("Ya no te queda dinero en el banco")
